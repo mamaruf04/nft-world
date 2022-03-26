@@ -1,0 +1,74 @@
+[
+    {
+      "id": "124e13b9-1",
+      "name": "Coded Demo",
+      "price": 239,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWa1pZCZydY0MybNp3NWYZW-bnK8RYQerKvg&usqp=CAU"
+    },
+    {
+      "id": "124e13b9-2",
+      "name": "Head Orange",
+      "price": 319,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nVcUjVrGfqTfB9pitvOAuD-Z4nYk4KzwRQ&usqp=CAU"
+    },
+    {
+      "id": "124e13b9-3",
+      "name": "Head Blue",
+      "price": 310,
+      "img": "https://i.cbc.ca/1.5933556.1614707827!/fileImage/httpImage/sheldon-corey-nft.jpg"
+    },
+    {
+      "id": "124e13b9-4",
+      "name": "Cross Eye",
+      "price": 350,
+      "img": "https://i.pinimg.com/550x/d0/46/e5/d046e5922deb13f617935a1a43c455ae.jpg"
+    },
+    {
+      "id": "124e13b9-5",
+      "name": "Love Tiger",
+      "price": 290,
+      "img": "https://www.brit.co/media-library/cheetah-club-coalition-nft-art.png?id=28230231&width=980"
+    },
+    {
+      "id": "124e13b9-6",
+      "name": "NFT Shadow",
+      "price": 190,
+      "img": "https://academy-public.coinmarketcap.com/optimized-uploads/6baf17f9b6d84e6992c8d6f220a53d18.png"
+    },
+    {
+      "id": "124e13b9-7",
+      "name": "Monkey Teeth",
+      "price": 350,
+      "img": "https://cdn.pixabay.com/photo/2022/02/12/17/39/russian-military-cap-7009525__340.jpg"
+    },
+    {
+      "id": "124e13b9-8",
+      "name": "Hidden Mask",
+      "price": 280,
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a7b942115094373.6048f4c2ad18e.jpg"
+    },
+    {
+      "id": "124e13b9-9",
+      "name": "Sigarat Monkey",
+      "price": 270,
+      "img": "https://s.yimg.com/ny/api/res/1.2/r0fUxdPJtIG7Cn5_iOAd.g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/uu/api/res/1.2/tLcilj47AboB3mHDNWnXbw--~B/aD00MTA7dz02MTU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/fx_empire_176/6153ba99d62c9868504db0ced36a49dc"
+    },
+    {
+      "id": "124e13b9-10",
+      "name": "Black Tiger",
+      "price": 246,
+      "img": "https://www.dictionary.com/e/wp-content/uploads/2021/03/20210309_atw_nft_1000x700.png"
+    },
+    {
+      "id": "124e13b9-11",
+      "name": "Cat Fire",
+      "price": 230,
+      "img": "https://cdn.pixabay.com/photo/2022/02/19/15/04/cat-7022876__340.jpg"
+    },
+    {
+      "id": "124e13b9-12",
+      "name": "Dabbo Matha",
+      "price": 370,
+      "img": "https://media.raritysniper.com/collections/azuki.webp"
+    }  
+]
