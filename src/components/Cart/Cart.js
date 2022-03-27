@@ -12,15 +12,19 @@ const Cart = (props) => {
         if(newProducts.length > 4){
             alert("You can add max 4 NFT");
         }
-        console.log(newProducts[2]?.name);    
+            
     }
-    // const randomProduct = '';
-    // const x = () =>{
-    //     // let random = Math.floor((Math.random() * 4));
-    //     {newProducts[2].name} = randomProduct;
-    //     console.log(randomProduct);
-    // }
-    
+    const [randomProduct, setRandomProduct] = useState([])
+    const RandomProduct = () =>{
+        let random = Math.floor((Math.random() * 4));
+        let y = newProducts[random];
+        // randomProduct +;
+        setRandomProduct(y);   
+    }
+    const clearState = () => {
+        newProducts = []
+        setRandomProduct([]);   
+    }
     return (
         <div className='cart'>
             <h3>Selected NFT</h3>
@@ -29,10 +33,14 @@ const Cart = (props) => {
                      <div key={product.id} className='cart-img'>
                          <img width='40px' height='40px' src={product.img} alt="" />
                          <p>{product.name}</p>
-                         </div>)
+                     </div>)
             }
-            {/* <button onClick={x}>CHOOSE 1 FOR ME</button> */}
-            <button>CHOOSE AGAIN</button>
+            <button onClick={() => RandomProduct()}>CHOOSE 1 FOR ME</button>
+            <h3 key={randomProduct.id} className='cart-img'>
+                <img width='40px' height='40px' src={randomProduct.img} alt="" />
+                <p>{randomProduct.name}</p>
+            </h3>
+            <button onClick={() => clearState()}>CHOOSE AGAIN</button>
         </div>
     );
 };
