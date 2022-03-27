@@ -1,17 +1,10 @@
 import React from 'react';
-import logo from '../../images/Logo.svg'
-
+import './Header.css';
 const Header = () => {
     return (
-        <nav className='header'>
-            <img src={logo} alt="" />
-            <div>
-                <a href="/shop">Shop</a>
-                <a href="/orders">Orders</a>
-                <a href="/inventory">Invenrtory</a>
-                <a href="/about">About</a>
-            </div>
-        </nav>
+        <div className='headeing'>
+            <h1>Non-Fungible-Token <span className='nft-hilight'>NFT</span> World</h1>
+        </div>
     );
 };
 

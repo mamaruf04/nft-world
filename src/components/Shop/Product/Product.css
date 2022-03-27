@@ -1,7 +1,8 @@
 .product{
     width: 300px;
     height: 510px;
-    border: 1px solid #95A0A7;
+    /* border: 1px solid #95A0A7; */
+    box-shadow: 5px 10px 20px;
     border-radius: 8px;
     position: relative;
 }
@@ -28,7 +29,7 @@
 }
 .btn-card{
     width: 100%;
-    background-color: #FFE0B3;
+    background-color: #c997f8;
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -41,6 +42,5 @@
     margin-right: 5px;
 }
 .btn-card:hover{
-    background-color: rgb(255, 166, 0);
-    color: white;
+    background-color: rgb(117, 246, 105);
 }

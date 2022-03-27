@@ -1,18 +1,9 @@
-.header{
-    height: 80px;
-    background-color: #1C2B35;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+.headeing{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(68, 0, 255, 0.692);
+    text-shadow: 0px -15px 13px;
 }
-.header a{
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 36px;
-}
-.header a:hover{
-    color: rgb(206, 92, 51);
+.nft-hilight{
+    color: orangered;
 }
