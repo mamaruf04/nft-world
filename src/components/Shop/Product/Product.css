@@ -1,12 +1,11 @@
-.product{
+#product{
     width: 300px;
     height: 510px;
-    /* border: 1px solid #95A0A7; */
     box-shadow: 5px 10px 20px;
     border-radius: 8px;
     position: relative;
 }
-.product img{
+.product-img{
     width: 286px;
     height: 286px;
     border-radius: 8px;
@@ -43,4 +42,7 @@
 }
 .btn-card:hover{
     background-color: rgb(117, 246, 105);
+}
+.btn-text{
+    font-size: 16px; 
 }

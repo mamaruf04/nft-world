@@ -18,6 +18,28 @@
     .product-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
-        margin: 100px 5px;
+        margin: 10px 5px;
+        width: 150px;
+        height: 250px;
     }
+    #product{
+        width: 209px;
+        height: 385px;
+    }
+    .headeing{
+        font-size: 16px;
+    }
+    .cart{
+        background-color: rgb(190, 127, 250);
+    }
+    .btn-design{
+        padding: 4px;
+        border-radius: 10px;
+        background-color: rgb(255, 201, 176);
+        font-size: 8px;
+    }
+    .faq{
+        display: flex;
+    }
+    
 }

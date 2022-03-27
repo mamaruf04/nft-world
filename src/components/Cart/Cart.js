@@ -11,12 +11,11 @@ const Cart = (props) => {
         newProducts = [...newProducts, product] ;
         if(newProducts.length > 4){
             alert("You can add max 4 NFT");
-        }
-            
+        }     
     }
     const [randomProduct, setRandomProduct] = useState([])
     const RandomProduct = () =>{
-        let random = Math.floor((Math.random() * 4));
+        let random = Math.floor((Math.random() * newProducts.length));
         let y = newProducts[random];
         // randomProduct +;
         setRandomProduct(y);   
@@ -25,6 +24,7 @@ const Cart = (props) => {
         newProducts = []
         setRandomProduct([]);   
     }
+    
     return (
         <div className='cart'>
             <h3>Selected NFT</h3>
@@ -35,12 +35,12 @@ const Cart = (props) => {
                          <p>{product.name}</p>
                      </div>)
             }
-            <button onClick={() => RandomProduct()}>CHOOSE 1 FOR ME</button>
-            <h3 key={randomProduct.id} className='cart-img'>
+            <button onClick={() => RandomProduct()} className='btn-design'>Random One</button>
+            <div key={randomProduct.id} className='cart-img'>
                 <img width='40px' height='40px' src={randomProduct.img} alt="" />
                 <p>{randomProduct.name}</p>
-            </h3>
-            <button onClick={() => clearState()}>CHOOSE AGAIN</button>
+            </div>
+            <button onClick={() => clearState()} className='btn-design'>CHOOSE AGAIN</button>
         </div>
     );
 };
